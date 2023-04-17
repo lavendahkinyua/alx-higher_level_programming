@@ -1,4 +1,4 @@
-!#/usr/bin/node
+#!/usr/bin/node
 const cmdLineArgs = process.argv.slice(2);
 const occurences = Number(cmdLineArgs[0]);
 
