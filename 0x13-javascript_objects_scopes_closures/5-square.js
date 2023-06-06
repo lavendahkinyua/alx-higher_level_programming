@@ -2,14 +2,7 @@
 /**
  * Square class that inherits from rectangle class
  */
-class Rectangle {
-  constructor (w, h) {
-    this.width = w;
-    this.height = h;
-  }
-
-  // Other methods of Rectangle class...
-}
+const Rectangle = require('./4-rectangle');
 
 class Square extends Rectangle {
   constructor (size) {
