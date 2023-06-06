@@ -4,11 +4,10 @@
  */
 class Rectangle {
   constructor(w, h) {
-    if (w <= 0 || h <= 0 || !Number.isInteger(w) || !Number.isInteger(h)) {
-      // Create an empty object if width or height is invalid
-      return {};
-    }
-    this.width = w;
-    this.height = h;
+    if (typeof w === 'number' && w > 0 && typeof h === 'number' && h > 0) {
+      this.width = w;
+      this.height = h;
+    }	    
   }
 }	
+module.exports = Rectangle;
