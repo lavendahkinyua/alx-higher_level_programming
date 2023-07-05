@@ -1,6 +1,12 @@
 #!/usr/bin/python3
-class square :
-    def __innit__ (self, length):
+class Square:
+    """
+     class representing a square
+    """
+    def __init__ (self, length):
+     """
+      Initializes a square with the given length
+     """
         self.length = lenghth
     def get_area (self):
         return self.length ** 2
