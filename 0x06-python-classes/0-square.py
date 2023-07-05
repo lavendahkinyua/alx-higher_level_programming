@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 class Square:
     """
-     class representing a square
+    Class representing a square
     """
     def __init__ (self, length):
-     """
-      Initializes a square with the given length
-     """
-        self.length = lenghth
+        """
+        Initializes a square with the given length
+        """
+        self.length = length
     def get_area (self):
         return self.length ** 2
     def get_perimeter(self):
