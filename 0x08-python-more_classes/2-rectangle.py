@@ -1,4 +1,9 @@
-class Rectangle:
+#!/usr/bin/python3
+"""a module defining a class rectangle"""
+
+
+class Rectangle
+    """defining a class rectangle"""
     def __init__(self, width=0, height=0):
          if not isinstance(width, int):
             raise TypeError("width must be an integer")
