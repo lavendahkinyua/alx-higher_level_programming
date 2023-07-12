@@ -1,7 +1,12 @@
 #!/usr/bin/python3
 """
-class called rectangle
+rectangle.py
+------------
+
+This module defines the Rectangle class, which represents a rectangle.
+
 """
+
 
 
 class Rectangle():
